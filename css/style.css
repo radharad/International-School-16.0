@@ -1,0 +1,797 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a{
+      text-decoration: none;
+      color: #fff;
+  }
+  li{
+    list-style: none;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body{
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+  }
+  .row{
+    align-items: center;
+    overflow: hidden;
+  }
+  p{
+    padding: 0 0 26px;
+  }
+
+  .home-section,
+  .grade-section,
+  .about-section,
+  .program-section,
+  .method-section,
+  .choose-section,
+  .event-section,
+  .testimonial-section,
+  .common-section,
+  .legacy-section,
+  .vision-section,
+  .mission-section,
+  .admission-section,
+  .beyondAcademics-section,
+  .contact-section,
+  .curriculum-section,
+  .facility-section
+  {
+    overflow-x: hidden;
+  }
+
+  .common--header{
+    color:#1e1e1e ;
+    font-weight: 700;
+  }
+
+  .common--subheader{
+   color:#1e1e1e ;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   word-spacing: 1px;
+   font-weight: bold;
+  }
+  .common--btn,
+  .common--btn:after {
+    width: 180px;
+    height: 66px;
+    font-size: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    background: linear-gradient(45deg, transparent 5%, #00173D 5%);
+    border: 0;
+    color: #fff;
+    box-shadow: 6px 0px 0px #DDEAFE;
+    outline: transparent;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  .common--btn:hover{
+    background: linear-gradient(45deg, transparent 5%, #DDEAFE 5%);
+    box-shadow: 6px 0px 0px #00173D;
+    color: #00173D;
+    transition: 0.3s ease-in-out;
+  }
+
+  .common--btn:hover a,
+  .common--btn:hover{
+    color: #00173D;
+  }
+ .common-section{
+  background-image: url(/images/common.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+ .common-section .text-center{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ /* Navbar Section Start */
+
+.navbar{
+  background-color: #00173D;
+}
+.navbar a{
+  color: #fff;
+  font-weight: bold;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.show{
+  color: #DDEAFE;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color:#fff!important;
+}
+.nav-item{
+  margin: 0px 10px;
+  font-size: 19px;
+}
+
+/* Navbar Section End */
+
+/* Home Section Start */
+
+.home-section{
+    background-color: #00173D;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+.home-section h1{
+    font-weight: 700;
+    font-size: 50px;
+    -webkit-animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand .9s cubic-bezier(.215,.61,.355,1.000) both
+}
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+.home-section a{
+  background-color: #DDEAFE; 
+  color: #fff;
+  font-size: 25px;
+  color: #00173D;
+  font-weight: 900;
+  /* border-radius: 0 53px 53px; */
+  border-radius: 10px;
+  padding:15px 20px;
+}
+.home-section a:hover{
+  background-color: #c1d0e6; 
+}
+.home-section .para{
+    font-size: 20px;
+    max-width: 550px;
+}
+
+/* Home Section End */
+
+/* Class section start */
+.grade-section{
+  position: relative;
+  bottom: 50px;
+  color: #00173D!important
+}
+.grade-section .section-card{
+  text-align: center;
+  background-color: #DDEAFE;
+  padding: 50px 40px;
+  position: relative;
+}
+.grade-section .rating-icon{
+  margin-bottom: 10px;
+}
+.grade-section .section-card:hover{
+  background-image: url(/images/rating.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.section-card:hover .grade-header,
+.section-card:hover .section,
+.section-card:hover
+{
+  color: #fff;
+}
+.grade-section .section-card h3{
+  font-weight: 400;
+  padding: 5px 0;
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
+  display: block;
+  border-top: 1px solid #00173D;
+  border-bottom: 1px solid #00173D;
+}
+.grade-section .section{
+  color: #00173D;
+  margin-top: 5px;
+}
+
+/* class section end */
+
+/* About Section Start */
+.about-section{
+  padding: 100px 0px 0px 0px;
+}
+.about-section .about-content{
+  margin: 60px 0px 0px 0px;
+}
+.vision-section p,
+.mission-section p,
+.legacy-section p,
+.about-section .about-content p{
+  margin: 30px 0px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+/* About Section End */
+
+/* Programmer Section Start */
+.program-section{
+  background-color:#DDEAFE;
+  position: relative;
+  padding: 100px 0px 100px 0px;
+}
+.custom-shape-divider-top-1703071593 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1703071593 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1703071593 .shape-fill {
+  fill: #FFFFFF;
+}
+.program-section .d-flex{
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.program-header{
+  margin-top: 70px;
+  text-align: center;
+}
+.program-group{
+  float: left;
+  margin: 0px 20px 0px 20px;
+}
+.program-group-first{
+  margin: 0px 20px 0px 0px;
+}
+.program-para{
+  margin-top: 10px;
+}
+.program-border{
+  border: 2px solid #00173D;
+  height: 40px;
+}
+.program-btn {
+  background-color: #00173D;
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  font-size: 13px;
+  font-style: normal;
+  border: none;
+  font-weight: 500;
+  padding: 6px 7px 6px 4px;
+  border-radius: 0 53px 53px 20px;
+  margin-top: 6px;
+}
+.custom-shape-divider-bottom-1703081347 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1703081347 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1703081347 .shape-fill {
+  fill: #FFFFFF;
+}
+
+/* Programmer Section End */
+
+/* Methodology section start */
+
+.method-section{
+  margin: 100px 0px;
+}
+.method-section p{
+ text-align: justify;
+}
+
+/* Methodology Section End */
+
+/* Choose Section Start */
+
+.choose-section{
+  background-image: url(/images/bg_choose.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  padding: 100px 0;
+}
+.event-section img{
+ height: 300px;
+}
+.event-section .card{
+  padding: 30px;
+}
+
+/* Choose Section End */
+
+/* Event Section Start */
+
+.event-section{
+  margin: 100px 0;
+  position: relative;
+}
+.event-section .blog-head{
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.event-section .cards{
+padding: 30px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+background-color:#DDEAFE;
+text-align: justify;
+transition: 0.3s linear;
+}
+
+.event-section .cards:hover{
+  transform: translateY(-20px);
+}
+.event-section .event-head{
+  color: #00173D;
+  margin-top: 20px;
+}
+.event-section .cardimg img{
+  width: 250px;
+    height: 250px;
+    padding: 25px ;
+    border-radius: 155px 145px 160px 50px;
+}
+.event-section .cardimg{
+  background-image: url(/images/card-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 16rem;
+  height: 17rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+/* event Section End */
+
+/* Testimonial Section Start */
+
+.testimonial-section{
+  margin: 150px 0px 250px 0px;
+}
+.testimonial-section .row{
+  margin-top: 80px;
+}
+.testimonial-slider{
+  text-align: center;
+}
+.testimonial-slider img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+.single-item li{
+  padding: 10px;
+}
+
+.testimonial-slider{
+  text-align: center;
+}
+.testimonial-slider li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.testimonial-slider li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.testimonial-slider li button:before {
+  content: '•';
+  font-size: 22px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  opacity: .25;
+  color: black;
+} 
+.testimonial-slider li.slick-active button:before {
+  color: black;
+  opacity: 0.75;
+}
+
+/* Testimonial Section End */
+
+/* mission Section Start */
+
+.mission-section{
+  margin: 100px 0px 200px 0px;
+}
+
+/* mission Section End */
+
+/* Curriculum Section Start */
+
+.curriculum-section{
+  padding: 100px 0px 100px 0px;
+  margin-bottom: 180px;
+}
+
+/* Curriculum Section End */
+
+/* Admission Section Start */
+.admission-section{
+  margin:20px 0px 120px 0px;
+}
+.admission-form{
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 30px;
+  margin: 30px 0px;
+}
+/* Admission Section End */
+
+/* beyond Academics Section Start */
+
+.beyondAcademics-section{
+  margin: 100px 0px 200px 0px;
+}
+.beyondAcademics-section .row>* {
+  padding-right: calc(var(--bs-gutter-x) * .0);
+  padding-left: calc(var(--bs-gutter-x) * .0);
+}
+
+.beyondAcademics-section .row{
+  margin-bottom: 20px;
+}
+.beyondAcademics-section h6{
+margin-bottom: 70px;
+}
+.beyondAcademics-section img{
+  width: 427.5px;
+  height: 388.98px;
+}
+.beyondAcademics-section p{
+  margin: 30px 0px;
+}
+.beyondAcademics-section .content-card{
+  display: flex;
+  justify-content: flex-end;
+}
+.co-card{
+  padding: 30px;
+  width: 427.5px;
+  height: 388.98px;
+}
+.odd{
+  background-color: #FEFA9C;
+}
+.even{
+  background-color: #DDEAFE;
+}
+
+.facility-section{
+  margin: 100px 0px 200px 0px;
+}
+
+/* beyond Academics Section End */
+
+/* Contact Section Start */
+
+.contact-section{
+  margin: 100px 0px 250px 0px;
+}
+.contact-section .p-5{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Contact Section End */
+
+/* Footer Section Start */
+.footer-section{
+  position: relative;
+  /* background-color: #4010c9; */
+  background-color: #00173D;
+  color: #fff;
+  padding: 40px 0px 20px 0px;
+}
+.footer-section .footer-content{
+  text-align:center;
+}
+.footer-section .gap-3{
+  
+  justify-content: center;
+}
+.footer-section .d-flex i{
+  font-size: 25px;
+}
+.footer-section .d-flex i:hover{
+  color: #bce5f7;
+}
+.copyright{
+  border-top: 2px dotted #fff;
+  cursor: pointer;
+}
+.schoolboy{
+  position: absolute;
+  left: 0px;
+  bottom: 344px;
+  width: 250px;
+  background: url(/images/Observation2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: walk 3s steps(2) infinite;
+  height: 150px;
+}
+@keyframes walk {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 50px 0;
+  }
+  100% {
+    background-position: 100px 0;
+  }
+}
+.bus{
+left: 900px;
+position: absolute;
+bottom: 344px;
+animation: animista 3s reverse infinite linear;
+}
+@keyframes animista{
+  0%{
+    left: 300px;
+  }
+  10%{
+   left: 300px;
+  }
+  20%{
+    left: 400px;
+  }
+  30%{
+    left: 500px;
+  }
+  40%{
+    left: 600px;
+  }
+  50%{
+    left: 700px;
+  }
+  60%{
+    left: 800px;
+  }
+  70%{
+    left: 900px;
+  }
+  80%{
+    left: 1000px;
+  }
+  90%{
+    left: 1100px;
+  }
+  100%{
+    left: 1200px;
+  }
+}
+
+/* Footer Section End */
+
+/* scroll to top button Start */
+#myBtn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99999;
+  /* border: none;
+  color: #fff;
+  background:#1650A2;
+  padding: 14px 7px 14px 7px;
+  font-size: 20px; */
+  cursor: pointer;
+  /* border-radius: 25px; */
+}
+.scrolltop{
+  float: right;
+}
+.scrolltop img{
+  width: 45px!important;
+ 
+ 
+}
+/* scroll to top button End */
+
+/* scroll to top button */
+#myBtn{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99999;
+  cursor: pointer;
+}
+.scrolltop{
+  float: right;
+}
+
+  /* Scrollbar Section Start */
+
+/* Width */
+::-webkit-scrollbar{
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track{
+    background: #DDEAFE;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb{
+ background: #DDEAFE; 
+ border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover{
+    background:#00173D;
+}
+/* Scrollbar Section End */
+
+/* text selection color start */
+
+::-moz-selection { /* Code for Firefox */
+  background:#00173D;
+  color: #fff;
+}
+
+::selection {
+  background:#00173D;
+  color: #fff;
+}
+
+/* text selection color end */
+
+/* whatsapp section start */
+  .whatsapp img{
+    position: fixed;
+    cursor: pointer;
+    width: 50px!important;
+    bottom:25px;
+    left:20px;
+    right:0;
+    z-index:1000;
+  }
+  /* whatsapp section end */
+
+/* Mobile Responsiveness */
+
+@media only screen and (min-width:200px) and (max-width:767px){
+  .home-section h1{
+    font-size: 30px;
+  }
+  .grade-section .col-12{
+    padding: 20px;
+  }
+  .mobileview{
+    display: none;
+  }
+  .program-section{
+    padding: 200px 0px;
+  }
+  .method-section img{
+    margin: 70px 0px 0px 0px ;
+  }
+  .event-section .card-section{
+    padding: 20px;
+  }
+  .anim{
+  display: none;
+  }
+ .testimonial-section{
+  margin: 50px 0px;
+ }
+ .testimonial{
+  padding: 20px;
+ }
+ .about-section{
+  padding: 0px;
+ }
+ .navbar{
+  background-color: #00173D;
+  height: px;
+ }
+ .navbar ul{
+  text-align: center;
+  margin-top: 30px;
+ }
+ iframe{
+  width: 100%;
+ }
+ .contact-section {
+  margin: 100px 0px 50px 0px;
+}
+
+.beyondAcademics-section .information{
+  order: 2!important;
+}
+.beyondAcademics-section .image{
+  order: 1!important;
+}
+.facility-section .co-card{
+  height: auto;
+}
+.admission-section {
+  margin: 50px 0px;
+}
+.program-group {
+  margin: 0px 20px 0px 0px;
+}
+.legacy-section{
+  margin: 50px 0px;
+}
+.vision-section .inform{
+  order: 1!important;
+}
+.vision-section .img{
+  order: 2!important;
+}
+.mission-section {
+  margin: 100px 0px 100px 0px;
+}
+.footer-content{
+  margin-bottom: 40px;
+}
+.common-section{
+  background-image: none;
+  background-color:#00173D;
+  height: 300px;
+ }
+}  
